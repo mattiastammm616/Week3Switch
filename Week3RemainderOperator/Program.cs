@@ -1,10 +1,10 @@
-﻿//Odd or even
+//Odd or even
 
 int a = 110;
 
-if result = a % 2;
+int result = a % 2;
 
-Console. WritleLine(result);
+Console.WriteLine(result);
 
 //if (result == 0)
 //{
@@ -14,15 +14,15 @@ Console. WritleLine(result);
 //    Console.WriteLine("Odd number");
 //}
 
-switch (result) 
-
+switch (result)
+    {
     case 0:
         Console.WriteLine($"{a} is an even number");
         break;
     case 1:
-    Console.WriteLine($"{a} is an odd number");
-        break;  
+        Console.WriteLine($"{a} is an odd number");
+        break;
     default:
         Console.WriteLine("Invalid value");
-        break;  
-
+        break;
+}
